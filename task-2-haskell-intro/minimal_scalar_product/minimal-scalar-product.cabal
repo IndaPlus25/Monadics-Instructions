@@ -1,0 +1,23 @@
+cabal-version:      3.4
+name:               minimal-scalar-product
+version:            0.1.0.0
+author:             Mikael Kemstedt
+maintainer:         kemstedt@kth.se
+build-type:         Simple
+
+
+executable minimal-scalar-product
+    main-is:          Main.hs
+    build-depends:    
+        base ^>=4.21.0.0,
+        bytestring >= 0.12.2.0
+    hs-source-dirs:   app
+    default-language: GHC2024
+    -- Runs with Kattis arguments
+    ghc-options: 
+        -Wall 
+        -O2 
+        -ferror-spans 
+        -threaded 
+        -rtsopts 
+        +RTS -M1024m -RTS
