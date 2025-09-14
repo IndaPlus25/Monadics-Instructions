@@ -1,15 +1,11 @@
-# Monadics-Instructions
+# sssuresh-haskell-task-2
+Submission for task 2 Inda regular-+ group by sssuresh 
 
-This is for storing instructions for the plus assignments.
+In this repo, my submission of task 2 is present. I did the 'summera tal' problem on Kattis.
 
-## Important
+## Check for code
+In order to check the code, go to the 'summera tal' folder. There, a .hs file will be found with the code as well as the proof of submission on Kattis taken through a screenshot. 
 
-* Please name your repos correctly (``<KTH-ID>-<task name>``), it makes grading easier. E.g. ``kemstedt-haskell-intro``
-* Read the [styleguide](STYLEGUIDE.md) for other important information.
-* Getting a pass on these plus assignments does not require a perfect solution, but some time invested and a reasonable attempt is expected.
-* It is always possible to do the week's regular assignment instead but beware that the grading is stricter in that case. Notify your asse/TA if you are doing the regular assignment so he/she knows what to grade.
 
-## Useful links
-
-* [Learn You a Haskell](https://learnyouahaskell.github.io/)
-* [Hoogle](https://hoogle.haskell.org/)
+## Thoughts
+Overall, the task was fairly simple. However, it took time to understand the concepts and how each line of code prepared for the next one and the overall setup.
