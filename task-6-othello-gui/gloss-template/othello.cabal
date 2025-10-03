@@ -1,0 +1,20 @@
+cabal-version:      3.14
+name:               othello
+version:            0.1.0.0
+author:             Mikael Kemstedt
+maintainer:         kemstedt@kth.se
+build-type:         Simple
+
+common basics
+    ghc-options: -Wall -threaded 
+    default-language: GHC2024
+
+executable othello
+    import:           basics
+    main-is:          Main.hs
+    hs-source-dirs:   app
+    build-depends:    
+        base ^>=4.21.0.0,
+        othello,
+        gloss,
+        gloss-juicy
