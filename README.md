@@ -13,3 +13,5 @@ This is for storing instructions for the plus assignments.
 
 * [Learn You a Haskell](https://learnyouahaskell.github.io/)
 * [Hoogle](https://hoogle.haskell.org/)
+* [Stanford student blog](https://crypto.stanford.edu/~blynn/haskell/)
+* [Wikibook on Haskell](https://en.wikibooks.org/wiki/Haskell)
