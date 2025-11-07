@@ -4,11 +4,12 @@ Language specifications are found in `../specifications.md`. **Note** that chang
 
 File sections `.text` and `.define` and define macros has been added to extend the language further. The special intructions `input`, `print` and `exit` has been replaced by `cal`. See example program in `./multiply.bbvv`.
 
-### `cal` - System Call
+## `cal` - System Call
 
-The system call instruction is of type jump instruction. The function of this instruction is decided by the kernel of the implementing system in question, or in this case by the emulator. 
+The system call instruction is of type jump instruction. The function of this instruction is decided by the kernel of the implementing system in question, or in this case by the emulator.
 
 However, at least the following should be implemented by the emulator:
+
 | **Code** | **Function** |
 |:---------|:-------------|
 | `1`      | Get integer value from standard input stream and store in `#1`. |
