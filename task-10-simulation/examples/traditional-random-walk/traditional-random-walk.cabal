@@ -1,0 +1,23 @@
+cabal-version: 3.14
+name: traditional-random-walk
+version: 0.1.0.0
+author: Mikael Kemstedt
+maintainer: kemstedt@kth.se
+build-type: Simple
+
+common warnings
+  ghc-options:
+    -Wall
+    -threaded
+
+executable traditional-random-walk
+  import: warnings
+  main-is: Main.hs
+  hs-source-dirs: app
+  default-language: GHC2024
+  build-depends:
+    base ^>=4.21.0.0,
+    containers ^>=0.7,
+    gloss ^>=1.13.2.2,
+    random ^>=1.3.1,
+    bytestring ^>=0.12.2.0
