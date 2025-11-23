@@ -10,7 +10,7 @@ Modified 2.0: Benjamin Widman & Daniel Strömberg
 
 RISC-V is sooo last week. We'll make our own assembly language with blackjack and... cool instructions!
 
-Your assembly language should use 16-bit instructions. See the [RISC-V instruction sheet](../task-08-assembly/riscv-instruction-sheet.pdf) and take inspiration from the RISC-V 32-bit instruction encoding. Your instruction encoding determines:
+1Your assembly language should use 16-bit instructions. See the [RISC-V instruction sheet](../task-8-assembly/riscv-instruction-sheet.pdf) and take inspiration from the RISC-V 32-bit instruction encoding. Your instruction encoding determines:
 
 | **Code**                    | **Size and Flexibility**                                                                            |
 | --------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -26,7 +26,7 @@ Lastly, remember to give your language a cool name!
 
 ## Reading Material
 
-The [RISC-V Reference sheet](../task-08-assembly/riscv-instruction-sheet.pdf) is *extremely* useful as a reference for how an assembly language can be designed.
+The [RISC-V Reference sheet](../task-8-assembly/riscv-instruction-sheet.pdf) is *extremely* useful as a reference for how an assembly language can be designed.
 
 ## Assignment
 
