@@ -1,0 +1,39 @@
+cabal-version:      3.4
+name:               kattis
+version:            0.1.0.0
+author:             Mikael Kemstedt
+maintainer:         kemstedt@kth.se
+build-type:         Simple
+
+
+executable kattis
+    main-is:          Main.hs
+    build-depends:    
+        base >= 4.7 && < 5, 
+        -- Fast collections
+        array, 
+        containers,
+
+        -- Fast processing
+        bytestring,
+        text,
+
+        -- Monad extensions
+        mtl,
+        stm,
+        transformers,
+
+        -- Strictness
+        deepseq
+
+        -- Might be more packages but they don't tell us.
+    hs-source-dirs:   app
+    default-language: GHC2024
+    -- Runs with Kattis arguments
+    ghc-options: 
+        -Wall 
+        -O2 
+        -ferror-spans 
+        -threaded 
+        -rtsopts 
+        +RTS -M1024m -RTS
